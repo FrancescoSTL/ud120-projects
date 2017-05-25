@@ -22,12 +22,29 @@ from email_preprocess import preprocess
 features_train, features_test, labels_train, labels_test = preprocess()
 
 
+import numpy as np
+X = np.array(features_train)
+Y = np.array(labels_train)
+from sklearn.naive_bayes import GaussianNB
 
+# create our classifier
+clf = GaussianNB()
 
-#########################################################
-### your code goes here ###
+# start a timer
+t0 = time()
+# fit (train) our classifier
+clf.fit(X, Y)
+# print time taken (for funzies)
+print "training time:", round(time()-t0, 3), "s"
 
+t1 = time()
+# determine the accuracy of our classifier using our real world emails and their actual associating creators
+accuracy = clf.score(features_test, labels_test)
+print "scoring time:", round(time()-t1, 3), "s"
 
-#########################################################
+t2 = time()
+# predict who wrote each test email
+pred = clf.predict(features_test)
+print "prediction time:", round(time()-t2, 3), "s"
 
-
+print accuracy
