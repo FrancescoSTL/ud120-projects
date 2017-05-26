@@ -36,9 +36,9 @@ Takeaways:
 - Information gain = entropy(parent) - [weighted average]*entropy(children)
 -- DT algorithm *maximizes* information gain
 
-![Decision tree entropy calculation example picture](https://github.com/FrancescoSTL/ud120-projects/blob/tree/master/assets/d-tree-entropy-calc.png?raw=true)
+![Decision tree entropy calculation example picture](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree-entropy-calc.png?raw=true)
 
 Parameters:
 1. min_samples_split - defines the minimum number of nodes needed in a segment in order to stop splitting. Lower = higher level of fitting (small, jagged blocks), higher = lower level of fitting (bigger, smoother blocks)
 
-![Decision tree min_samples_split](https://github.com/FrancescoSTL/ud120-projects/blob/tree/master/assets/d-tree-min-samples.png?raw=true)
+![Decision tree min_samples_split](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree-min-samples.png?raw=true)
