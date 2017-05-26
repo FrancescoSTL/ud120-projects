@@ -4,9 +4,9 @@ ud120-projects
 This repo includes all the project code for the Udacity Intro to Machine Learning course. As I complete modules, I will update the readme to reflect progress. Additionally, you can follow my note taking [here](https://github.com/FrancescoSTL/ud120-projects/blob/master/notes.md). Each project uses scikit-learn to utilize ML algorithms out of the box.
 
 ### Index
-1. [Initialization](https://github.com/FrancescoSTL/ud120-projects#Initializing)
-2. [Running the code](https://github.com/FrancescoSTL/ud120-projects#Running)
-3. [My progress](https://github.com/FrancescoSTL/ud120-projects#Progress)
+1. [Initialization](https://github.com/FrancescoSTL/ud120-projects#initializing)
+2. [Running the code](https://github.com/FrancescoSTL/ud120-projects#running)
+3. [My progress](https://github.com/FrancescoSTL/ud120-projects#progress)
 
 Initializing
 ------
