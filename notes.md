@@ -1,4 +1,4 @@
-ud120-notes
+Intro to Machine Learning (ud-120) Notes
 ==============
 
 
