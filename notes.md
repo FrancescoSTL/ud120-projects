@@ -32,13 +32,11 @@ Takeaways:
 ![Decision tree screenshot](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree.png?raw=true)
 
 - Entropy - Controls how the decision tree determines where to split through the *measure of impurity in data across multiple data-sets*. Sets with the most purity in data are selected.
--- Defined as E = -Σ(i)[p(i) log(2)[p(i)]]. In other words: the negation of the summation of p(i)*(log base 2 of p(i)) from 0 to i
+- Entropy is defined as E = -Σ(i)[p(i) log(2)[p(i)]]. In other words: the negation of the summation of p(i)*(log base 2 of p(i)) from 0 to i
 - Information gain = entropy(parent) - [weighted average]*entropy(children)
--- DT algorithm *maximizes* information gain
+- DT algorithm *maximizes* information gain
 
 ![Decision tree entropy calculation example picture](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree-entropy-calc.png?raw=true)
 
 Parameters:
-1. min_samples_split - defines the minimum number of nodes needed in a segment in order to stop splitting. Lower = higher level of fitting (small, jagged blocks), higher = lower level of fitting (bigger, smoother blocks)
-
-![Decision tree min_samples_split](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree-min-samples.png?raw=true)
+1. min_samples_split - defines the minimum number of nodes needed in a segment in order to stop splitting. Lower = higher level of fitting (small, jagged blocks), higher = lower level of fitting (bigger, smoother blocks) [EXAMPLE](https://github.com/FrancescoSTL/ud120-projects/blob/master/assets/d-tree-min-samples.png?raw=true)
